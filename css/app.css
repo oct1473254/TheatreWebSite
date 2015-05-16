@@ -1,0 +1,215 @@
+body {
+	font-family: 'Poiret One', cursive;
+	 margin: 1%;
+}
+
+div {
+}
+
+header {
+	width: 98%;
+	height: 100px;
+}
+
+#logo {
+	margin: auto;
+	float: center;
+	display: block;
+	text-align: center;
+}
+.scroll {
+	width: 100%;
+	float: right;
+	border: 2px solid black;
+}
+
+
+button {
+	background-color: #eeeeee;
+	padding: 8px 0;
+text-align: center;
+width: 30%;
+font-size: 1em;
+border: 3px solid #ccc;
+border-bottom: 1px solid #bbb;
+border-radius: 3px;
+color: #333;
+}
+
+#scrollcontainer {
+	width: 80%;
+	height: 800px;
+	margin-left: 20%;
+  display: block;
+   overflow: hidden;
+  position: relative;
+  padding: 0;
+  position:relative;
+}
+
+nav {
+	margin: 5px;
+	width: 14%;
+	float:left;
+	border: 2px solid black;
+	background-color: #7E8599;
+	font-size: 18px;
+	position: fixed;
+	top: 110px;
+
+}
+
+footer {
+	border: 2px solid black;
+	width: 100%;
+	clear: both;
+}
+
+section {
+	color: white;
+	padding-right: 3%; 
+	padding-top: 15%;
+	padding-bottom: 25%;
+	text-align: center;
+		font-family: helvetica;
+	font-size: 4em;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid black;
+}
+
+#logdiv {
+width: 15%;
+float: left;
+text-align: center;
+font-size: 20px;
+font-family: Helvetica;
+}
+
+#hero {
+	width: 80%;
+	float: right;
+	margin: auto 0;
+	text-align: center;
+	height: 10%;
+	
+}
+
+#summary {
+	width: 59%;
+	float: left;
+}
+
+#social {
+	float: right;
+	width: 40%;
+}
+
+#home {
+color: black;
+}
+
+#page1 {
+	background-color: blue;
+	height: 100%;
+	background: url(../img/setmodel.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page2 {
+	background-color: green;
+  background: url(../img/writign.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page3 {
+	background-color: red;
+	  background: url(../img/bios.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page4 {
+
+	background-color: purple;
+	 background: url(../img/setmodel.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page5 {
+	background-color: yellow;
+	 background: url(../img/forum.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#page6 {
+
+	background-color: orange;
+	 background: url(../img/ticket.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 5em;
+	color:black	;
+}
+
+#social a {
+	float: left;
+	height: 48px;
+	width: 48px;
+	z-index: 1;
+	background-image: url("../images/socialNav.png");
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#social a.gmail {
+	background-position: 0 -48px;
+}
+
+#social a.gmail:hover {
+	background-position: 0 0;
+}
+
+#social a.twitter {
+	background-position: -48px -48px;
+}
+
+#social a.twitter:hover {
+	background-position: -48px 0;
+}
+
+#social a.facebook {
+	background-position: -97px -48px;
+}
+
+#social a.facebook:hover {
+	background-position: -97px 0;
+}
+
+#social a.rss {
+	background-position: -146px -48px;
+}
+
+#social a.rss:hover {
+	background-position: -146px 0;
+}
